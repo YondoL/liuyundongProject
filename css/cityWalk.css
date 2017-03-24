@@ -1,0 +1,220 @@
+*{margin:0;padding:0;}
+a{text-decoration: none;color: #999;}
+img,a img{border:0;margin:0;padding:0;vertical-align: middle;}
+ul,ol,li{list-style:none}
+span a:last-of-type{border: none;}
+a:hover{color:#c00;text-decoration:none;}
+span,a,img{display: inline-block;}
+body>div{margin:0 auto;width: 1349px;overflow: hidden;}
+p{display:inline-block}
+img{display: inline-block;}
+
+body{font:12px "宋体","Arial Narrow",HELVETICA;background:black;}
+
+#logo{
+    width:1349px;
+    height:122px;
+    background-image:linear-gradient(to bottom, #4fc871, #0fbfa5);
+    font-size:0px;
+}
+#logo input{
+    width: 361px;
+    height: 40px;
+    border-radius:20px 0 0 20px ;
+    border:0px solid transparent;
+    color: #999;
+    text-indent: 2em;
+    vertical-align: middle;
+    margin-left: 95px;
+    outline: 0;
+}
+#logo button{
+    width:119px;
+    height:40px;
+    border:0px solid transparent;
+    border-radius: 0 20px 20px 0;
+    background: white;
+    color: #00b081;
+    font-weight: bold;
+    font-size:17px;
+    vertical-align: middle;
+    outline: 0;
+
+}
+#logo button img{
+    vertical-align: middle;
+    margin-left: 10px;
+}
+#logo button span{
+    vertical-align: middle;
+    display: inline-block;
+
+}
+#logo button span:first-of-type{
+    border-left:1px solid #00b081;
+    height: 28px;
+}
+#logo> .imgsss{
+    position:relative;
+    top:-120px;
+    left:1141px;
+}
+
+
+/*main的样式*/
+#main{
+    background: black;
+}
+#main dl {
+    height:275px;
+    margin: 10px 0 30px 0;
+    background: white;
+    position: relative;
+}
+#main dl dt{
+    float: left;
+    height: 275px;
+    margin-right:20px;
+}
+#main dl dt img{
+    height:275px;
+}
+#main dl dd{
+    float: left;
+    margin:20px 0 0px 0px ;
+    width:850px;
+}
+#main dl dd:first-of-type span:first-of-type{
+    border:1px solid #999;
+    padding: 4px;
+}
+#main dl dd:first-of-type span:nth-of-type(2){
+    margin-left:650px;
+    color: #00b081;
+}
+#main dl dd:first-of-type span:nth-of-type(3){
+    color: #00b081;
+}
+#main dl dd:first-of-type span:nth-of-type(2) b{
+    font-weight:normal;
+    color: #999;
+}
+#main dl dd:first-of-type span:nth-of-type(3) b{
+    font-weight:normal;
+    color: #999;
+}
+#main dl dd:nth-of-type(2){
+    font-size: 23px;
+    font-weight:bold;
+}
+#main dl dd:nth-of-type(2) a {
+    color: #000;
+}
+#main dl dd:nth-of-type(6){
+    color: #999;
+    font-size:15px;
+    position: absolute;
+    right:-695px;
+    bottom:80px;
+}
+#main dl dd:nth-of-type(6) span{
+    color: #ff7467;
+    font-size: 29px;
+}
+#main dl dd:nth-of-type(6) span b{
+    font-size:15px;
+    color: #999;
+    font-weight:normal;
+}
+#main dl dd:nth-of-type(7){
+    position: absolute;
+    bottom:63px;
+    right:66px;
+}
+#main dl dd:nth-of-type(7) a{
+    padding:20px 50px 20px 50px;
+    background:#ff7467;
+    color: white;
+    font-size: 15px;
+    position:absolute;
+    right:-66px;
+    bottom:-63px;
+}
+/*foot的样式*/
+#footer{
+    clear: both;
+}
+#footer .f_top{
+    height:188px;
+    background:#f5f5f5;
+    padding-top:28px;
+    padding-left:96px;
+}
+#footer .f_top p:first-of-type a{
+    padding:0 32px 0 36px ;
+    font-size: 18px;
+    color:black;
+    border-right:1px solid #999;
+}
+#footer .f_top p:first-of-type a:hover{
+    color:#11af81;
+    text-decoration:underline;
+}
+#footer .f_top p:first-of-type a:last-of-type{
+    border:none;
+}
+#footer .f_top dl{
+    width:405px;
+    float:left;
+    margin-top:65px;
+}
+#footer .f_top dl dt{
+    float:left;
+    width:77px;
+}
+#footer .f_top dl dd>span{
+    float:left;
+    width:310px;
+    color:#999;
+    font-size: 12px;
+
+}
+
+
+
+
+
+#footer .f_bottom{
+    padding-top:47px;
+    padding-left:96px;
+    background: black;
+    height:202px;
+    color:#999;
+}
+#footer .f_bottom a:hover{
+    text-decoration:underline;
+    color: #999;
+}
+#footer .f_bottom div:first-of-type{
+    width: 746px;
+    height:97px;
+    float:left;
+}
+#footer .f_bottom div:first-of-type p{
+    width: 500px;
+    color:#999;
+    vertical-align: middle;
+}
+#footer .f_bottom div:nth-of-type(2){
+    font-size: 17px;
+}
+#footer>.f_bottom>div:last-of-type p:first-of-type a{
+    padding: 0 23px 0 23px;
+    border-right:1px solid #999;
+}
+#footer .f_bottom div:last-of-type p:first-of-type a:first-of-type{
+    padding-left:0px;
+}
+#footer .f_bottom div:last-of-type p:first-of-type a:last-of-type{
+    border-right:none;
+}
